@@ -2,74 +2,8 @@
 <html lang="en-US">
 <head>
   <title>Resume</title>
-  <style>
-    ul li {
-        display:inline;
-        background-color: black;
-        color: white;
-        padding: 10px 20px 10px 20px;
-        border-radius: 4px 4px 0 0;
-        font-size: 15px;
-    }
-    #list {
-      text-align: center;
-      font-size: 20px;
-    }
-    ul li:hover {
-        background-color: orange;
-    }
-    ul li a:visited {
-        background-color: black;
-    }
-    ul li a {
-      color: white;
-    }
-    body {
-      background-color: #C2E1F7;
-    }
-    #obj {
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size: 20px;
-    }
-    #obj:hover {
-      color:orange;
-    }
-    #fullName {
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size: 28px;
-      text-align: center;
-    }
-    #objBody {
-      display: none;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-    }
-    #eduBody {
-      display: none;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-    }
-    #expBody {
-      display: none;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-    }
-    #leadBody {
-      display:none;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-    }
-    #skillBody {
-      display:none;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-    }
-  </style>
-  <script>
-    function hideShowFunction(anyID) {
-        if (document.getElementById(anyID).style.display == "none"
-             || document.getElementById(anyID).style.display == "") {
-          document.getElementById(anyID).style.display = "inline";
-        } else {
-          document.getElementById(anyID).style.display = "none";
-        }
-    }
-  </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
 </head>
 
 <body>
@@ -79,9 +13,8 @@
     <a href = "newPage.html"><li>Contact Me</li></a>
   </ul></h1><br><br>
   <h1 id="fullName">Ganapathy Hari Narayan</h1>
-  <br><br><br>
-
-  <p id="obj" onclick="hideShowFunction('objBody')"><b><span style="cursor:pointer">Objective</span></b><br></p>
+  <br><br><br>git
+  <p id="obj" onclick="hideShowFunction('objBody')"><b> <span style="cursor:pointer">Objective</span> </b><br></p>
 
 
       <p id="objBody">To obtain a position in an internship or Co-op job that is challenging, and allows me to experience work life, as well as apply what I have learnt in college to the workplace.
