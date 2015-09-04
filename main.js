@@ -6,3 +6,6 @@ function hideShowFunction(anyID) {
       document.getElementById(anyID).style.display = "none";
     }
 }
+function funct2() {
+  window.open("index.html", "_self");
+}
