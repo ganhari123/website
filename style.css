@@ -20,6 +20,14 @@ ul li a {
   padding: 5px;
   color: white;
   letter-spacing: 5px;
+  font-family: Comic Sans MS, Verdana, sans-serif;
+}
+
+#MyFirstList li {
+  padding-right: 5px;
+}
+#MyFirstList {
+  list-style-type:square;
 }
 body {
   /*background-color: #C2E1F7;*/
