@@ -15,9 +15,6 @@ ul li a:visited {
 ul li a {
   color: white;
 }*/
-#MyFirstTable, td{
-  border: 1px solid black;
-}
 
 #fullName {
   background-color: navy;
@@ -26,23 +23,22 @@ ul li a {
   letter-spacing: 2px;
   border-radius: 20px;
   font-family: Comic Sans MS, Verdana, sans-serif;
-
-  width: 200px;
+  display: inline-block;
+  width: 500px;
   padding: 25px;
   border: 25px solid navy;
-  margin: 25px;
+  margin: 0px;
+}
+#but1, #but2 {
+  display: inline;
+  float: right;
 }
 #fullName:hover {
   cursor:pointer;
 }
-#MyFirstList li {
-  padding-right: 5px;
-}
-#MyFirstList {
-  list-style-type:square;
-}
+
 body {
-  /*background-color: #C2E1F7;*/
+  background-color: #C2E1F7;
 }
 #obj {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
