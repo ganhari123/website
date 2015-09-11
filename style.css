@@ -30,9 +30,9 @@ ul li:hover {
   color:orange;
 }
 #FirstDiv {
-  background-color: navy;
-  border-radius: 20px;
-  border: 15px solid navy;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid navy;
 }
 #fullName {
   color: white;
@@ -50,7 +50,7 @@ ul li:hover {
 }
 
 body {
-  background-color: #C2E1F7;
+  background-color: #CCCCCC;
 }
 #obj {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
