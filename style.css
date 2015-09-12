@@ -27,12 +27,18 @@ ul li {
   padding-left: 100px;
 }
 ul li:hover {
-  color:orange;
+  color:grey;
 }
 #FirstDiv {
   background-color: black;
   border-radius: 5px;
   border: 1px solid navy;
+  opacity: 0.7;
+  width: 1278px;
+  height: 50px;
+  position: relative;
+  right: 8px;
+  bottom: 20px;
 }
 #fullName {
   color: white;
@@ -40,10 +46,9 @@ ul li:hover {
   font-family: Verdana, Verdana, sans-serif;
   margin: 0px;
   display: inline;
-  text-align: left;
 }
 #fullName:hover {
-  color: orange;
+  color: grey;
 }
 #fullName:hover {
   cursor:pointer;
@@ -52,6 +57,8 @@ ul li:hover {
 body {
   background-color: #CCCCCC;
 }
+
+
 #obj {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
