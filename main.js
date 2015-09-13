@@ -9,3 +9,11 @@ function hideShowFunction(anyID) {
 function funct2() {
   window.open("index.html", "_self");
 }
+
+function funct3() {
+  window.open("Resume.pdf", "_blank");
+}
+
+function funct4() {
+  window.open("newPage.html", "_self");
+}
