@@ -1,3 +1,5 @@
+    console.log("Hello!");
+
 function hideShowFunction(anyID) {
     if (document.getElementById(anyID).style.display == "none"
          || document.getElementById(anyID).style.display == "") {
