@@ -43,12 +43,41 @@ li {
   font-size: 17px;
   vertical-align: middle;
   padding-right: 10px;
+  opacity: 0.8;
 }
 #Contact{
   font-size: 17px;
   vertical-align: middle;
   padding-right: 7px;
 }
+
+/*#Res:hover {
+  color: gray;
+  cursor: pointer;
+}*/
+
+#MainTitle:hover {
+  cursor: pointer;
+}
+
+#Contact:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+#Project {
+  float:left;
+  background-color: black;
+  color:white;
+  position: relative;
+  left: 20px;
+  text-align: center;
+  width: 10%;
+  border-radius: 5px;
+}
+
+
+
 #obj {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
