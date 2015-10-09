@@ -1,5 +1,6 @@
 body {
-  background-color: #C8C8C8;
+  /*background-color: #C8C8C8;*/
+  background-color: white;
   margin: 0;
 }
 
@@ -9,7 +10,7 @@ body {
   height: 30px;
   border-width: medium;
   border-radius: 2px;
-  opacity: 0.85;
+  opacity: 0.78;
   position: relative;
   bottom: 16px;
 }
@@ -31,12 +32,11 @@ li {
   float:left;
   position: relative;
   right:30px;
-  top: 4px;
+  top: 2px;
 }
 
 #MainTitle {
-  font-size: 20px;
-  vertical-align: middle;
+  font-size: 22px;
 }
 
 #Res {
@@ -50,19 +50,14 @@ li {
   padding-right: 7px;
 }
 
-/*#Res:hover {
-  color: gray;
-  cursor: pointer;
-}*/
-
 #MainTitle:hover {
   cursor: pointer;
 }
 
-#Contact:hover {
+/*#Contact:hover {
   cursor: pointer;
   color: gray;
-}
+}*/
 
 #Project {
   float:left;
